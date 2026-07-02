@@ -13,7 +13,7 @@ def webhook():
 
 @app.route('/')
 def home():
-    return "Flask App is Live!"
+    return "Flask App is Live and autodeploying!"
 
 if __name__ == '__main__':
     app.run(debug=True)
